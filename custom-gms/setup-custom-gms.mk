@@ -6,8 +6,7 @@ PRODUCT_PACKAGES += \
 	PrebuiltBugle \
 	PrebuiltGmail \
 	PrebuiltGmsCoreVic \
-	Velvet \
-	YouTube
+	Velvet
 
 # Pixel Launcher
 TARGET_SUPPORT_PIXEL_LAUNCHER ?= true

@@ -243,18 +243,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "YouTubeMusicPrebuilt",
-	owner: "gms",
-	apk: "proprietary/product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk",
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
 	name: "talkback",
 	owner: "gms",
 	apk: "proprietary/product/app/talkback/talkback.apk",

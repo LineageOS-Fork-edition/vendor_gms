@@ -85,7 +85,6 @@ PRODUCT_PACKAGES += \
     SoundPickerPrebuilt_33000242 \
     TrichromeLibrary-Stub \
     WebViewGoogle-Stub \
-    YouTubeMusicPrebuilt \
     talkback \
     AndroidAutoStubPrebuilt \
     ConfigUpdater \

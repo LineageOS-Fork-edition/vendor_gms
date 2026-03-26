@@ -183,6 +183,3 @@ product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2022-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2023-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2024-and-newer.xml
-
-# Youtube
-product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk;PRESIGNED

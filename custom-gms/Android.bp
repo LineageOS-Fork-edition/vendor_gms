@@ -145,23 +145,3 @@ android_app_import {
 	privileged: true,
 	product_specific: true,
 }
-
-genrule {
-    name: "merge_YouTube",
-    srcs: [
-        "YouTube/*.apk*",
-    ],
-    out: ["YouTube.apk"],
-    cmd: "cat $(in) > $(out)",
-}
-android_app_import {
-	name: "YouTube",
-	owner: "gms",
-	apk: ":merge_YouTube",
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
